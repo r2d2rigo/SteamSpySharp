@@ -34,7 +34,7 @@ namespace SteamSpySharp.Models
         /// Score rank of the game based on user reviews.
         /// </summary>
         [JsonProperty("score_rank")]
-        public int ScoreRank { get; internal set; }
+        public int? ScoreRank { get; internal set; }
 
         /// <summary>
         /// Owners of this application on Steam. ** Beware of free weekends!**
